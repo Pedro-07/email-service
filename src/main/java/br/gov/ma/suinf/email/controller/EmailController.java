@@ -20,7 +20,7 @@ public class EmailController {
     private final EmailService emailService;
 
     // Valor da chave esperada vem do application.yml
-    @Value("${emailservice.api-key}")
+    
     private String expectedApiKey;
 
     public EmailController(EmailService emailService) {
